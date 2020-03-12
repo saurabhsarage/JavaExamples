@@ -1,4 +1,5 @@
 //This Shows the Conditional Statement 
+// Simple Use of If else Statements
 class Simple3
 {
 	public static void main(String args [])
@@ -6,17 +7,18 @@ class Simple3
 		int x,y;
 		x = 10;
 		y = 20;
-		if(x < y)
+		if(x < y) // Checks is 'x' is less than 'y'
 		{
-			System.out.println("X is Less Than Y");
+			// If 'x' is less than 'y' Execute this block
+			System.out.println("X is Less Than Y"); 
 		}
-		x = x*2;
-		if(x == y)
+		x = x*2; 
+		if(x == y) // Checks whether x is equal to y
 		{
 			System.out.println("X is Equal to Y");
 		}
 		x = x*2;
-		if(x > y)
+		if(x > y)// Checks whether x is greater than y
 		{
 			System.out.println("Now X is Greater");
 		}
