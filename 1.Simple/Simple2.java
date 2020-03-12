@@ -1,4 +1,5 @@
 //This is Second Example
+// This Example Demonstrate use of operator
 class Simple2
 {
 	public static void main(String [] args)
